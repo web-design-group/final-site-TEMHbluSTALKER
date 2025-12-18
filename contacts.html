@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Контакты — Илюзара</title>
+  <link href="styles-grid.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="page-container header-grid">
+      <div class="logo-block">
+        <div class="logo-title">ИЛЮЗАРА</div>
+        <div class="logo-city">Санкт-Петербург</div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="atol-products.html">Каталог</a>
+        <a href="#">Услуги</a>
+        <a class="active" href="contacts.html">Контакты</a>
+        <a href="service-and-support.html">Сервис и поддержка</a>
+      </nav>
+      <div class="header-phones">
+        +7 (911) 923-43-09<br />
+        +7 (922) 400-05-59
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="page-container">
+      <section class="contacts-section">
+        <div class="contacts-grid">
+          <div class="contacts-text">
+            <h1>Контакты</h1>
+            <p>Сервисный центр: <b>+7 (911) 923-43-09</b></p>
+            <p>Отдел продаж: <b>+7 (922) 400-05-59</b></p>
+            <p>Электронная почта: <b>iluzara@yandex.ru</b></p>
+            <p>Адрес:<br />
+              Санкт-Петербург, ул. Коломенская, д. 42,<br />
+              литер А, офис 28
+            </p>
+            <p>
+              Режим работы сервисного центра и отдела продаж:<br />
+              с 9:00 до 18:00, Пн–Пт
+            </p>
+            <p>
+              Уважаемые покупатели, пользуйтесь формой обратной связи
+              для отправки заявки на услуги. Мы свяжемся с вами
+              в ближайшее рабочее время.
+            </p>
+          </div>
+          <div class="contacts-map">
+            <div class="map-frame">
+              <iframe allowfullscreen="" loading="lazy"
+                src="https://yandex.ru/map-widget/v1/?ll=30.429154%2C59.920655&amp;mode=search&amp;oid=30607256571&amp;ol=biz&amp;sctx=ZAAAAAgBEAAaKAoSCcDpXbwfSz5AEe49XHLc901AEhIJOL9hokEK0D8R9KW3PxcNqT8iBgABAgMEBSgKOABAvYIGSAFqAnJ1nQHNzMw9oAEAqAEAvQH8QxrAwgEF%2B9fWgnKCAg7QuNC70Y7Qt9Cw0YDQsIoCAJICAJoCDGRlc2t0b3AtbWFwcw%3D%3D&amp;sll=30.462113%2C59.920655&amp;sspn=0.501251%2C0.097903&amp;text=%D0%B8%D0%BB%D1%8E%D0%B7%D0%B0%D1%80%D0%B0&amp;utm_source=share&amp;z=13">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-section">
+        <div class="steps-line">
+          <h2>Заявка на услуги</h2>
+          <div class="step-card">
+            <span class="icon"></span>
+            Заполните форму заявки
+          </div>
+          <div class="step-card">
+            <span class="icon"></span>
+            Отправьте заявку
+          </div>
+          <div class="step-card">
+            <span class="icon"></span>
+            Мы свяжемся с вами в ближайшее время
+          </div>
+        </div>
+        <form class="service-form">
+          <div class="form-block">
+            <div class="block-title">Шаг 1. Ваши контактные данные</div>
+            <div class="grid-2">
+              <input placeholder="ФИО" type="text" />
+              <input placeholder="Email" type="text" />
+            </div>
+            <div class="grid-2">
+              <input placeholder="Компания" type="text" />
+              <input placeholder="Номер телефона" type="text" />
+            </div>
+            <div class="grid-2">
+              <input placeholder="Местонахождение" type="text" />
+            </div>
+          </div>
+          <div class="form-block two-cols">
+            <div>
+              <div class="block-title">Шаг 2. Требуемая услуга</div>
+              <label><input type="checkbox" /> Помощь в выборе кассового оборудования</label>
+              <label><input type="checkbox" /> Регистрация в ФНС и электронные подписи</label>
+              <label><input type="checkbox" /> Ремонт кассового оборудования</label>
+              <label><input type="checkbox" /> Настройка ПО</label>
+              <label><input type="checkbox" /> Замена фискального накопителя</label>
+              <label><input type="checkbox" /> Другое</label>
+            </div>
+            <div>
+              <div class="block-title">Тип бизнеса</div>
+              <label><input type="checkbox" /> Магазин</label>
+              <label><input type="checkbox" /> Отель</label>
+              <label><input type="checkbox" /> Производство</label>
+              <label><input type="checkbox" /> Учебное заведение</label>
+              <label><input type="checkbox" /> Кафе, бар, ресторан</label>
+              <label><input type="checkbox" /> Медицинское учреждение</label>
+              <label><input type="checkbox" /> Другое</label>
+            </div>
+          </div>
+          <div class="form-block">
+            <div class="block-title">Шаг 3. Ваши примечания и комментарии</div>
+            <textarea placeholder="Оставьте ваши комментарии"></textarea>
+            <button class="submit-btn" type="submit">
+              <span>Оставить заявку</span>
+              <img alt="" class="submit-icon" src="img/arrow.svg" />
+            </button>
+          </div>
+        </form>
+        <div class="round-buttons">
+          <a href="service-and-support.html">
+            <img alt="" class="round-icon" src="img/logo.svg" />
+            <span>Новости</span>
+          </a>
+          <a href="service-and-support.html">
+            <img alt="" class="round-icon" src="img/logo.svg" />
+            <span>Законодательство</span>
+          </a>
+          <a href="service-and-support.html">
+            <img alt="" class="round-icon" src="img/logo.svg" />
+            <span>Акции</span>
+          </a>
+          <a href="service-and-support.html">
+            <img alt="" class="round-icon" src="img/logo.svg" />
+            <span>Инструкции</span>
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="page-container footer-grid">
+      <div class="footer-logo">ИЛЮЗАРА</div>
+      <nav class="footer-nav">
+        <a href="index.html">Главная</a>
+        <a href="atol-products.html">Каталог</a>
+        <a href="#">Услуги</a>
+        <a class="active" href="contacts.html">Контакты</a>
+        <a href="service-and-support.html">Сервис и поддержка</a>
+      </nav>
+      <div class="footer-spacer"></div>
+      <div class="footer-info">
+        <div class="footer-info-item">
+          Санкт-Петербург,<br />
+          ул. Коломенская, д.42,<br />
+          литера А, офис 28
+        </div>
+        <div class="footer-info-item">
+          iluzara@yandex.ru
+        </div>
+        <div class="footer-info-item">
+          +7 (911) 923-43-09<br />
+          +7 (922) 400-05-59
+        </div>
+        <div class="footer-info-item footer-info-spacer"></div>
+      </div>
+      <div class="footer-bottom">
+        <div class="social">
+          <a class="social-icon" href="#"><img alt="WhatsApp" src="img/whatsapp.svg" /></a>
+          <a class="social-icon" href="#"><img alt="Telegram" src="img/telegram.svg" /></a>
+          <a class="social-icon" href="#"><img alt="VK" src="img/vk.svg" /></a>
+        </div>
+        <div class="dev">
+          Разработка и продвижение сайта — «Илюзара»
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
